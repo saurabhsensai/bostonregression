@@ -10,7 +10,11 @@ import pandas as pd
 
 app = Flask(__name__)
 #load the model
+<<<<<<< HEAD
 regmodel = pickle.load(open("regmodel.pkl",'rb'))
+=======
+regmodel = pickle.load(open("regmodl.pkl"))
+>>>>>>> 511d551188fe30162789cd98b19571541a4261ab
 scalar = pickle.load(open("scaling.pkl",'rb'))
 
 
